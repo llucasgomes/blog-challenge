@@ -26,5 +26,9 @@ export default createGlobalStyle`
         background-color: #00000090;
         border-radius: .5rem;
     }
+    .link {
+      text-decoration: none;
+      color: inherit;
+    }
     
 `;
