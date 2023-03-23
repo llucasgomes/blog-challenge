@@ -1,12 +1,14 @@
 <h1 align="center">React JS</h1>
 <h3 align="center">Teste Tecnico Blog</h3>
 
-### Pagina Home
+#### Pagina Home
 
 <p align="center">
   <img src="https://github.com/llucasgomes/blog-challenge/blob/main/src/assets/images/home.png" alt="Imagem da Pagina Home"/>   
 </p>
-### Pagina Post 
+
+#### Pagina Post
+
 <p align="center">
    <img src="https://github.com/llucasgomes/blog-challenge/blob/main/src/assets/images/desc1.png" alt="Imagem Pagina de Descrição Post com Comentarios"/>  
    <img src="https://github.com/llucasgomes/blog-challenge/blob/main/src/assets/images/desc2.png" alt="Imagem Pagina de Descrição Post com Comentarios"/>  
@@ -16,7 +18,7 @@
 
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Pagina](https://one-page-ecru.vercel.app/)
+- [Pagina](https://blog-challenge-chi.vercel.app)
 
 ## 🔖&nbsp; Sobre
 
