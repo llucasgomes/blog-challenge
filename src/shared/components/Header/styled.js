@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  height: 15rem;
+  height: 10rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -20,9 +20,6 @@ export const Container = styled.header`
     }
     .subtitle {
       font-size: 1.5rem;
-       @media (min-width: 320px) and (max-width: 768px) {
-display: none;
-}
 
     }
   }
