@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { Menu } from "../../shared/components/Menu";
 import { Container_Page_Desc } from "./styled";
 import { DataContext } from "../../shared/contexts/DataContext";
 import { Comment } from "../../shared/components/Comment";
@@ -38,8 +37,6 @@ export const Page_Description = () => {
           ))}
         </div>
       </div>
-
-      <Menu />
     </Container_Page_Desc>
   );
 };
