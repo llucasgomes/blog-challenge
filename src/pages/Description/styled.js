@@ -7,7 +7,7 @@ export const Container_Page_Desc = styled.section`
   .back {
     position: absolute;
     left: 5%;
-    top: 33%;
+    top: 16rem;
   }
   .content {
     flex: 5;
