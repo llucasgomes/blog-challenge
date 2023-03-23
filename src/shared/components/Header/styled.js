@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  width: 100vw;
   height: 15rem;
   position: relative;
   display: flex;
@@ -16,11 +15,11 @@ export const Container = styled.header`
     align-items: center;
     flex-direction: column;
 
-    .title{
-        font-size:3rem;
+    .title {
+      font-size: 3rem;
     }
-    .subtitle{
-        font-size:2rem;
+    .subtitle {
+      font-size: 2rem;
     }
   }
 `;
