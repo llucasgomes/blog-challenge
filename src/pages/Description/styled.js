@@ -4,7 +4,11 @@ export const Container_Page_Desc = styled.section`
   display: flex;
   gap: 50px;
   margin: 50px 200px 0;
-
+  .back {
+    position: absolute;
+    left: 5%;
+    top: 33%;
+  }
   .content {
     flex: 5;
     display: flex;

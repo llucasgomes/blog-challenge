@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { Container_Page_Desc } from "./styled";
 import { DataContext } from "../../shared/contexts/DataContext";
 import { Comment } from "../../shared/components/Comment";
+import { ArrowCircleLeft } from "phosphor-react";
+import { Link } from "react-router-dom";
 
 export const Page_Description = () => {
   const { post, Comments, comments, user } = useContext(DataContext);
@@ -14,6 +16,11 @@ export const Page_Description = () => {
 
   return (
     <Container_Page_Desc>
+      <div className="back">
+        <Link to={"/"}>
+          <ArrowCircleLeft size={45} weight="light" color="gray" />
+        </Link>
+      </div>
       <div className="content">
         <img src="https://source.unsplash.com/800x600" alt="" />
         <div className="user">
