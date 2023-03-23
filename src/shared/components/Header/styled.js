@@ -19,11 +19,11 @@ export const Container = styled.header`
       font-size: 3rem;
     }
     .subtitle {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 
-@media (max-width: 768px) {
+@media (min-width: 0) and (max-width: 768px) {
   height: 7rem;
 
   .subtitle {
