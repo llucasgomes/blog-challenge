@@ -22,4 +22,12 @@ export const Container = styled.header`
       font-size: 2rem;
     }
   }
+
+@media (max-width: 768px) {
+  height: 7rem;
+
+  .subtitle {
+     display: none;
+  }
+}
 `;
