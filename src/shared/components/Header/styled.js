@@ -20,21 +20,11 @@ export const Container = styled.header`
     }
     .subtitle {
       font-size: 1.5rem;
-    }
-  }
-
-@media (min-width: 320px) and (max-width: 768px) {
-  height: 5rem;
-  
-  .title-subtitle {
-
-    .title {
-      font-size: 3rem;
-    }
-    .subtitle {
-      display: none;
-    }
-  }
-  
+       @media (min-width: 320px) and (max-width: 768px) {
+display: none;
 }
+
+    }
+  }
+
 `;
