@@ -4,9 +4,9 @@ import { Container_Footer } from "./styled";
 export const Footer = () => {
   return (
     <Container_Footer>
-      <Code size={50} weight="duotone" />
+      <Code size={50} weight="duotone" color="white" />
       <span>
-        Made with ♥️ and <b>React.js</b>.
+        Feito com ♥️ e <b>React.js</b>.
       </span>
     </Container_Footer>
   );
