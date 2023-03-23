@@ -8,19 +8,16 @@ export const Home = () => {
   const { posts } = useContext(DataContext);
 
   return (
-    <>
-      <Container_Posts>
-        {posts.map((item) => (
-          <Post
-            key={item.id}
-            title={item.title}
-            desc={item.body}
-            data={item}
-            image={"https://source.unsplash.com/800x600"}
-          />
-        ))}
-      </Container_Posts>
-      <Footer />
-    </>
+    <Container_Posts>
+      {posts.map((item) => (
+        <Post
+          key={item.id}
+          title={item.title}
+          desc={item.body}
+          data={item}
+          image={"https://source.unsplash.com/800x600"}
+        />
+      ))}
+    </Container_Posts>
   );
 };
