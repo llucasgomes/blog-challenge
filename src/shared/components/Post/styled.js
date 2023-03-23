@@ -65,6 +65,7 @@ export const Container_Post = styled.div`
   }
 
   @media (min-width: 769px) and (max-width: 900px) {
+border: 1px solid #e5e4e2;
     .img {
       &::after {
         display: none;
@@ -111,6 +112,8 @@ export const Container_Post = styled.div`
     }
   }
   @media (min-width: 320px) and (max-width: 480px) {
+    border: 1px solid #e5e4e2;
+    border-radius: 8px;
     .img {
       display: none;
     }
@@ -126,9 +129,10 @@ export const Container_Post = styled.div`
       }
 
       button {
-        margin: 10px 0;
-        background-color: #7279f9;
+        margin: 20px 0;
+        background: #7279f9;
         color: #000;
+        border: 1px solid #e5e4e2;
       }
     }
   }
