@@ -65,7 +65,8 @@ export const Container_Post = styled.div`
   }
 
   @media (min-width: 769px) and (max-width: 900px) {
-border: 1px solid #e5e4e2;
+    border: 1px solid #e5e4e2;
+    padding: 20px;
     .img {
       &::after {
         display: none;
@@ -79,7 +80,7 @@ border: 1px solid #e5e4e2;
 
       p {
         font-size: 14px;
-        margin-top: 10px;
+        margin: 10px 0;
       }
 
       button {
@@ -103,7 +104,7 @@ border: 1px solid #e5e4e2;
 
       p {
         font-size: 12px;
-        margin-top: 10px;
+        margin: 10px 0;
       }
 
       button {
@@ -114,6 +115,7 @@ border: 1px solid #e5e4e2;
   @media (min-width: 320px) and (max-width: 480px) {
     border: 1px solid #e5e4e2;
     border-radius: 8px;
+    padding: 20px;
     .img {
       display: none;
     }
@@ -125,7 +127,7 @@ border: 1px solid #e5e4e2;
 
       p {
         font-size: 12px;
-        margin-top: 10px;
+        margin: 10px 0;
       }
 
       button {
