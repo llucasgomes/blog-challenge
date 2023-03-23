@@ -1,16 +1,17 @@
 import { useContext, useEffect, useState } from "react";
 import { Menu } from "../../shared/components/Menu";
 import { Container_Page_Desc } from "./styled";
-import { api } from "../../shared/services/api";
 import { DataContext } from "../../shared/contexts/DataContext";
 import { Comment } from "../../shared/components/Comment";
 
 export const Page_Description = () => {
-  const [user, setUser] = useState([]);
-
-  const { post, Comments, comments } = useContext(DataContext);
+  const { post, Comments, comments, user } = useContext(DataContext);
 
   Comments(post.id);
+
+  let usuario = user
+    .filter((user) => user.id == post.userId)
+    .map((filteredUser) => filteredUser.name);
 
   return (
     <Container_Page_Desc>
@@ -19,7 +20,7 @@ export const Page_Description = () => {
         <div className="user">
           <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" />
           <div className="info">
-            <span>Lucas Gomes</span>
+            <span>{usuario}</span>
             <p>Posted {"data do post"}</p>
           </div>
         </div>
