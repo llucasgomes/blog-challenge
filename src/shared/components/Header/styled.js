@@ -24,10 +24,17 @@ export const Container = styled.header`
   }
 
 @media (min-width: 0) and (max-width: 768px) {
-  height: 7rem;
+  height: 5rem;
+  
+  .title-subtitle {
 
-  .subtitle {
-     display: none;
+    .title {
+      font-size: 3rem;
+    }
+    .subtitle {
+      display: none;
+    }
   }
+  
 }
 `;
