@@ -1,8 +1,7 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { Footer } from "../../shared/components/Footer";
 import { Post } from "../../shared/components/Post";
 import { Container_Posts } from "./styled";
-import { api } from "../../shared/services/api";
 import { DataContext } from "../../shared/contexts/DataContext";
 
 export const Home = () => {
