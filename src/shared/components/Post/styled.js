@@ -111,7 +111,6 @@ export const Container_Post = styled.div`
     }
   }
   @media (min-width: 320px) and (max-width: 480px) {
-    background: orange;
     .img {
       display: none;
     }
@@ -128,6 +127,8 @@ export const Container_Post = styled.div`
 
       button {
         margin: 10px 0;
+        background-color: #7279f9;
+        color: #000;
       }
     }
   }
