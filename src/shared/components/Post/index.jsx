@@ -5,6 +5,14 @@ import { DataContext } from "../../contexts/DataContext";
 
 export const Post = ({ title, image, desc, data }) => {
   const { setPost } = useContext(DataContext);
+
+  const handlePush = () => {
+    setPost(data);
+
+    //Caso a pagina der refresh, salvo no local storage
+    localStorage.setItem("key", JSON.stringify(data));
+  };
+
   return (
     <Container_Post>
       <div className="img">
@@ -15,7 +23,7 @@ export const Post = ({ title, image, desc, data }) => {
           <h1>{title}</h1>
         </a>
         <p>{desc}</p>
-        <Link className="button" to={"/post"} onClick={() => setPost(data)}>
+        <Link className="button" to={"/post"} onClick={() => handlePush()}>
           Read More
         </Link>
       </div>
