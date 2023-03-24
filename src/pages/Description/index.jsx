@@ -6,8 +6,12 @@ import { ArrowCircleLeft } from "phosphor-react";
 import { Link } from "react-router-dom";
 
 export const Page_Description = () => {
-  const { post, Comments, comments, user } = useContext(DataContext);
+  const { post, setPost, Comments, comments, user } = useContext(DataContext);
+  const storage = localStorage.getItem("key");
 
+  if (post.length == 0) {
+    setPost(JSON.parse(storage));
+  }
   Comments(post.id);
 
   let usuario = user
