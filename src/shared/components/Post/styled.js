@@ -92,6 +92,7 @@ export const Container_Post = styled.div`
     border: 1px solid #e5e4e2;
     border-radius: 8px;
     padding: 20px;
+    background-color: #ffffff;
 
     .img {
       display: none;
