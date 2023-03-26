@@ -5,6 +5,7 @@ export const Container_Comment = styled.div`
   border-radius: 8px;
   padding: 10px;
   margin: 0 0 20px 0;
+  background-color: #ffffffff;
   .user {
     display: flex;
     align-items: center;
