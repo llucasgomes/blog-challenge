@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container_Post = styled.div`
   display: flex;
@@ -139,4 +139,4 @@ export const Container_Post = styled.div`
       }
     }
   }
-`;
+`

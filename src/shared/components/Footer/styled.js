@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container_Footer = styled.footer`
   margin-top: 100px;
@@ -14,4 +14,4 @@ export const Container_Footer = styled.footer`
   span {
     font-size: 20px;
   }
-`;
+`

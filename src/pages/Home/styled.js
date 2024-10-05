@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container_Posts = styled.section`
   display: flex;
@@ -18,4 +18,4 @@ export const Container_Posts = styled.section`
     margin: 50px 50px 0;
     gap: 25px;
   }
-`;
+`

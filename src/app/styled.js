@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container_Loading = styled.div`
   width: 100vw;
@@ -7,4 +7,4 @@ export const Container_Loading = styled.div`
   justify-content: center;
   align-items: center;
   background: #f5f5f5;
-`;
+`

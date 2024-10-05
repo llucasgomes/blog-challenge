@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container_Comment = styled.div`
   border: 1px black solid;
@@ -29,4 +29,4 @@ export const Container_Comment = styled.div`
       font-size: 15px;
     }
   }
-`;
+`
