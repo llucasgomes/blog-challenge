@@ -26,7 +26,7 @@ export const Page_Description = () => {
         </Link>
       </div>
       <div className="content">
-        <img src="https://source.unsplash.com/800x600" alt="" />
+        <img src="https://placedog.net/800x600" alt="" />
         <div className="user">
           <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" />
           <div className="info">
@@ -43,7 +43,7 @@ export const Page_Description = () => {
             <Comment
               key={item.id}
               data={item}
-              image={"https://source.unsplash.com/800x600"}
+              image={"https://placedog.net/800x600"}
             />
           ))}
         </div>
